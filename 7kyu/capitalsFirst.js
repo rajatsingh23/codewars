@@ -12,7 +12,7 @@
 function capitalsFirst(str){
     let arr = str.split(' ')
     let upper = arr.filter((x) => x.charAt(0).match(/[A-Z]/))
-    let lower = arr.filter((x) => x.charAt(0)a.match(/[a-z]/))
+    let lower = arr.filter((x) => x.charAt(0).match(/[a-z]/))
     
     return upper.concat(lower).join(' ')
   }
